@@ -7,6 +7,6 @@
         public string Summary { get; private set; } = string.Empty;
         public Contact Contact { get; private set; }
         public List<Experience> Experiences { get; private set; }
-        public List<Competence> Competences { get; private set; }
+        public List<Skills> Skills { get; private set; }
     }
 }
