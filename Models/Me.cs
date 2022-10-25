@@ -8,5 +8,6 @@
         public Contact Contact { get; private set; }
         public List<Experience> Experiences { get; private set; }
         public List<Skill> Skills { get; private set; }
+        public List<Certification> Certifications { get; private set; }
     }
 }
