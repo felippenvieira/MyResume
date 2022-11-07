@@ -9,5 +9,31 @@
         public List<Experience> Experiences { get; private set; }
         public List<Skill> Skills { get; private set; }
         public List<Certification> Certifications { get; private set; }
+
+        public Me(string name, string role, string summary, Contact contact, List<Experience> experiences, List<Skill> skills, List<Certification> certifications)
+        {
+            Name = name;
+            Role = role;
+            Summary = summary;
+            Contact = contact;
+            Experiences = experiences;
+            Skills = skills;
+            Certifications = certifications;
+        }
+
+        public void UpdateName(string name)
+        {
+            Name = name;
+        }
+
+        public void UpdateRole(string role)
+        {
+            Role = role;
+        }
+
+        public void UpdateSummary(string summary)
+        {
+            Summary = summary;
+        }
     }
 }
